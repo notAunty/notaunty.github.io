@@ -78,9 +78,7 @@ button:focus {
 /* ------- */
 
 * {
-	font-size: 0.95rem;
   box-sizing: border-box;
-
 	--secondary-text: #8d6e67;
 }
 
