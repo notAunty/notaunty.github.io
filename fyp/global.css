@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: #333;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  isolation: isolate;
+}
+
+a {
+	color: var(--secondary-text);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: var(--secondary-text);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+  font: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	-webkit-padding: 0.4em 0;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+input:disabled {
+	color: #ccc;
+}
+
+button {
+	color: #333;
+	background-color: #f4f4f4;
+	outline: none;
+}
+
+button:disabled {
+	color: #999;
+}
+
+button:not(:disabled):active {
+	background-color: #ddd;
+}
+
+button:focus {
+	border-color: #666;
+}
+
+
+/* ------- */
+
+* {
+  box-sizing: border-box;
+	--secondary-text: #8d6e67;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.7rem;
+}
+
+h5 {
+	font-weight: 500;
+	font-size: 1.4em;
+	margin: 8px 8px 8px 0;
+}
+
+h6 {
+	font-weight: 500;
+	font-size: 1.15em;
+	margin: 8px 8px 8px 0;
+}
+
+p {
+	margin: 2px 2px 2px 0;
+	color: var(--secondary-text);
+}
+
+strong {
+	font-weight: 700;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+.footnote {
+	opacity: 0.7;
+	font-weight: 500;
+	font-size: 0.7rem;
+	margin: 1.7rem 0 1.5rem auto;
+	/* text-transform: uppercase; */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
